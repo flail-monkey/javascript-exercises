@@ -28,8 +28,18 @@ const power = function(base, exponent) {
 	return base**exponent
 };
 
-const factorial = function() {
-	
+const factorial = function(integer) {
+	if (integer === 0)
+    {return 1}
+  if (integer > 0)
+    {
+    total = 1
+    for (let i = integer; i > 0; i--)
+      {
+        total *=i
+      }
+    return total
+    }
 };
 
 // Do not edit below this line
