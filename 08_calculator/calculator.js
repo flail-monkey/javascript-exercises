@@ -2,12 +2,17 @@ const add = function(a, b) {
 	return a+b
 };
 
-const subtract = function() {
-	
+const subtract = function(a, b) {
+	return a-b
 };
 
-const sum = function() {
-	
+const sum = function(add_me) {
+  total = 0
+  for (let i = 0; i < add_me.length; i++)
+    {
+    total += add_me[i]
+    }
+  return total
 };
 
 const multiply = function() {
