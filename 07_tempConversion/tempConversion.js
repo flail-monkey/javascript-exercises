@@ -5,6 +5,9 @@ const convertToCelsius = function(f) {
 };
 
 const convertToFahrenheit = function(c) {
+  f = c * (9/5) + 32
+  roundedF = parseFloat(f.toFixed(1))
+  return roundedF
 };
 
 // Do not edit below this line
