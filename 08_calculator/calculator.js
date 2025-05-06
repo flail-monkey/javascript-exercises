@@ -24,8 +24,8 @@ const multiply = function(multiply_me) {
   return total
 };
 
-const power = function() {
-	
+const power = function(base, exponent) {
+	return base**exponent
 };
 
 const factorial = function() {
