@@ -1,5 +1,5 @@
 const fibonacci = function(fib_index) {
-    if (typeof fib_index === "string")
+    if (typeof fib_index !== 'number')
         {fib_index = parseInt(fib_index)}
     if (fib_index < 0)
         return "OOPS"
